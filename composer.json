@@ -1,0 +1,32 @@
+{
+    "name": "konoha",
+    "description": "Konoha Smtp Server",
+    "type": "Application",
+    "autoload": {
+        "psr-4": {
+            "App\\": "apps/src/"
+        }
+    },
+    "repositories" : [
+        {
+            "type" :  "pear",
+            "url" : "https://pear.php.net/"
+        }
+    ],
+    "require" : {
+        "monolog/monolog" : "1.21.0",
+        "illuminate/database": "v5.4.x-dev",
+        "illuminate/events": "v5.4.x-dev",
+        "fzaninotto/faker": "^1.7",
+        "vlucas/phpdotenv": "^3.3",
+        "pear-pear.php.net/PEAR": "*",
+        "pear-pear.php.net/net_server": "*",
+        "pear-pear.php.net/cache_lite": "*",
+        "pear-pear.php.net/mail": "*",
+        "pear-pear.php.net/mail_mimeDecode": "*",
+        "pear-pear.php.net/mail_queue": "*",
+        "pear-pear.php.net/db": "*",
+        "pear-pear.php.net/net_dns2": "*",
+        "pear-pear.php.net/net_smtp": "*"
+    }
+}

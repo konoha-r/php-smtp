@@ -21,6 +21,11 @@ DB_PREFIX=""
 DSN='mysqli://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}'
 ```
 
+execute `composer install` 
+```
+$>composer install
+```
+
 ### Start smtp server
 
 ```
